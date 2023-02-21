@@ -1,0 +1,163 @@
+/* Fuente de Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gloock&display=swap');
+
+
+/* Estilos globales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+  color: #333;
+  margin: 50px;
+  margin-bottom: 50px;
+  background: #d8d7e4;
+  height: 50px;
+}
+
+/* Estilos de encabezados */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+  
+}
+
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+}
+
+.columna-1 {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .columna-1 {
+    width: 100%;
+  }
+
+  
+}
+
+.columna-2 {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .columna-2 {
+    width: 100%;
+  }
+
+}
+
+.container-3 {
+  height: auto;
+  padding: 30px;
+}
+
+h1 {
+  font-family: 'Gloock', sans-serif;
+  font-size: 3.0rem;
+  margin-bottom: 0.5rem;
+  color: #193154;
+  text-align: center;
+    
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #f3f1f1;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+h2 {
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #193154;
+}
+
+h3 {
+  font-size: large;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #515F7C;
+}
+
+/* Estilos de imágenes */
+img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Estilos de enlaces */
+a {
+  color: #074383;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos de secciones */
+section {
+  margin-bottom: 40px;
+}
+
+/* Estilos de columnas */
+section {
+  column-count: 2;
+  column-gap: 40px;
+}
+
+/* Estilos específicos de secciones */
+#personal-info {
+  column-span: all;
+}
+
+#experiencia-laboral h3 {
+  margin-top: 20px;
+}
+
+#experiencia-laboral p:first-of-type {
+  font-weight: 700;
+}
+
+#formacion h3 {
+  margin-top: 20px;
+}
+
+#formacion p:first-of-type {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
